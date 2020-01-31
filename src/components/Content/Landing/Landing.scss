@@ -1,0 +1,21 @@
+#landing {
+  #about-us-wrapper {
+    background-color: rgb(6, 11, 14);
+    padding: 3em 1em;
+    text-align: center;
+    #about-us {
+      margin: auto;
+      max-width: 920px;
+    }
+  }
+  #teams-wrapper {
+    background-color: rgb(6, 11, 14);
+    padding: 3em 1em;
+    #team-list {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.navigation {
+  background-color: rgb(6, 11, 14);
+  font-family: 'Open Sans';
+  margin: 0;
+  padding: 25px 0px;
+
+  text-align: center;
+
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 1020;
+
+  li {
+    display: inline-block;
+    a {
+      color: rgb(211, 211, 211);
+      display: block;
+      font-size: 13px;
+      letter-spacing: 1.3px;
+      text-decoration: none;
+      padding: 6px 10px;
+    }
+  }
+}
