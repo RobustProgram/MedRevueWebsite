@@ -10,13 +10,6 @@ import './Landing.scss';
 function Landing() {
   return (
     <div id="landing">
-      <Parallax
-        bgImage={require('../../../img/1.jpg')}
-        bgImageAlt="the cat"
-        strength={1000}
-      >
-        <div style={{ height: '60vh' }} />
-      </Parallax>
       <div id="about-us-wrapper">
         <div id="about-us">
           <p className="title">UNSW MED REVUE</p>
