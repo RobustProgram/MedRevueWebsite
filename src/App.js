@@ -15,8 +15,8 @@ import './App.scss';
 function App() {
   return (
     <React.Fragment>
-      <Menu />
       <Router>
+        <Menu />
         <Switch>
           <Route path="/about-us">
             <AboutUs />

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 import './Menu.scss';
 
@@ -7,12 +8,12 @@ class Menu extends React.Component {
     return (
       <React.Fragment>
         <ul className="navigation">
-          <li><a href="#">HOME</a></li>
-          <li><a href="#">ABOUT</a></li>
-          <li><a href="#">SPONSORS</a></li>
-          <li><a href="#">FAQ</a></li>
-          <li><a href="#">GET INVOLVED</a></li>
-          <li><a href="#">BUY TICKETS</a></li>
+          <li><Link to="/">HOME</Link></li>
+          <li><Link to="/about-us">ABOUT</Link></li>
+          <li><Link to="/sponsors">SPONSORS</Link></li>
+          <li><Link to="/faq">FAQ</Link></li>
+          <li><Link to="/get-involved">GET INVOLVED</Link></li>
+          <li><Link to="/buy-tickets">BUY TICKETS</Link></li>
         </ul>
       </React.Fragment>
     )
