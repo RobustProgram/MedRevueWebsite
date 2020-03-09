@@ -7,6 +7,7 @@ import Menu from './components/Menu';
 // Contents
 import Landing from './components/Content/Landing';
 import AboutUs from './components/Content/AboutUs';
+import Sponsors from './components/Content/Sponsors';
 import FAQ from './components/Content/FAQ';
 
 import Footer from './components/Footer';
@@ -19,6 +20,7 @@ function App() {
       <Router>
         <Menu />
         <Switch>
+          <Route path='/sponsors'><Sponsors /></Route>
           <Route path='/faq'><FAQ /></Route>
           <Route path='/about-us'><AboutUs /></Route>
           <Route path='/'>
