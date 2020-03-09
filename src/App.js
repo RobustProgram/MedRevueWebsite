@@ -7,6 +7,7 @@ import Menu from './components/Menu';
 // Contents
 import Landing from './components/Content/Landing';
 import AboutUs from './components/Content/AboutUs';
+import FAQ from './components/Content/FAQ';
 
 import Footer from './components/Footer';
 
@@ -18,10 +19,9 @@ function App() {
       <Router>
         <Menu />
         <Switch>
-          <Route path="/about-us">
-            <AboutUs />
-          </Route>
-          <Route path="/">
+          <Route path='/faq'><FAQ /></Route>
+          <Route path='/about-us'><AboutUs /></Route>
+          <Route path='/'>
             <Video />
             <Landing />
           </Route>
