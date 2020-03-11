@@ -1,0 +1,32 @@
+#faqbg {
+  background-color: rgb(6, 11, 14);
+  #faq {
+    margin: auto;
+    max-width: 920px;
+    padding: 1em;
+  }
+}
+
+#show-tables {
+  border-collapse: collapse;
+  color: black;
+  width: 100%;
+
+  th {
+    text-align: left;
+  }
+  thead {
+    background-color: #1abc9c;
+    color: black;
+  }
+  thead th:nth-child(1) { width: 10%; }
+  thead th:nth-child(2) { width: 40%; }
+  thead th:nth-child(3) { width: 25%; }
+  thead th:nth-child(4) { width: 25%; }
+  tbody {
+    tr:nth-child(odd) { background-color: #ffffff; }
+    tr:nth-child(even) { background-color: #eeeeee; }
+  }
+
+  th, td { padding: 0.5em 1em; }
+}

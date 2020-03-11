@@ -56,7 +56,7 @@ export default function FAQ() {
               <AccordionItemButton>How do I sign up?</AccordionItemButton>
             </AccordionItemHeading>
             <AccordionItemPanel>
-              <p>Just click right here!</p>
+              <p>Just click <a href="https://forms.gle/TgoudDGdXJSh54Tp6">right here!</a></p>
             </AccordionItemPanel>
           </AccordionItem>
           <AccordionItem>
@@ -157,7 +157,9 @@ export default function FAQ() {
               </AccordionItemButton>
             </AccordionItemHeading>
             <AccordionItemPanel>
-              <p>The society constitution can be found here</p>
+              <p>
+                The society constitution can be found <a href="https://drive.google.com/file/d/15BYOuiTCo0tnEg5xfwzKAR_QvVvUJsFK/view?usp=sharing">here!</a>
+              </p>
             </AccordionItemPanel>
           </AccordionItem>
         </Accordion>

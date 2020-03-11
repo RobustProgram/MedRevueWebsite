@@ -10,6 +10,7 @@ import AboutUs from './components/Content/AboutUs';
 import Teams from './components/Content/Teams';
 import Sponsors from './components/Content/Sponsors';
 import FAQ from './components/Content/FAQ';
+import PastShows from './components/Content/PastShows';
 
 import Footer from './components/Footer';
 
@@ -21,6 +22,7 @@ function App() {
       <Router>
         <Menu />
         <Switch>
+          <Route path='/past-shows'><PastShows /></Route>
           <Route path='/teams'><Teams /></Route>
           <Route path='/sponsors'><Sponsors /></Route>
           <Route path='/faq'><FAQ /></Route>
