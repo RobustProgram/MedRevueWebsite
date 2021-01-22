@@ -27,6 +27,8 @@ function App() {
           <Route path='/sponsors'><Sponsors /></Route>
           <Route path='/faq'><FAQ /></Route>
           <Route path='/about-us'><AboutUs /></Route>
+          <Route path='/join'
+              render={() => { window.location = 'https://forms.gle/ypp9FUzcgUYbqQwQA'; }} />
           <Route path='/'>
             <Video />
             <Landing />

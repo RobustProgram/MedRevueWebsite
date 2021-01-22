@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import Image1 from '../../../img/teams.jpg';
 
@@ -274,7 +275,7 @@ function Teams() {
             </AccordionItemPanel>
           </AccordionItem>
         </Accordion>
-        <p><b>If you’re interested in being part of Med Revue 2021, click on <a href="https://forms.gle/ypp9FUzcgUYbqQwQA">Get Involved</a> or send us an email (hello@medrevue.org) for more info!</b></p>
+        <p><b>If you’re interested in being part of Med Revue 2021, click on <Link to="/join">Get Involved</Link> or send us an email (hello@medrevue.org) for more info!</b></p>
       </div>
     </div>
   )

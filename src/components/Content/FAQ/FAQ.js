@@ -57,7 +57,7 @@ export default function FAQ() {
               <AccordionItemButton>How do I sign up?</AccordionItemButton>
             </AccordionItemHeading>
             <AccordionItemPanel>
-              <p>Just click <a href="https://forms.gle/ypp9FUzcgUYbqQwQA">right here!</a></p>
+              <p>Just click <Link to="/join">right here!</Link></p>
             </AccordionItemPanel>
           </AccordionItem>
           <AccordionItem>
