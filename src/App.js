@@ -28,7 +28,7 @@ function App() {
           <Route path='/faq'><FAQ /></Route>
           <Route path='/about-us'><AboutUs /></Route>
           <Route path='/join'
-              render={() => { window.location = 'https://forms.gle/ypp9FUzcgUYbqQwQA'; }} />
+              render={() => { window.location.replace('https://forms.gle/ypp9FUzcgUYbqQwQA'); }} />
           <Route path='/'>
             <Video />
             <Landing />
