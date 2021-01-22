@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import {
   Accordion,
@@ -27,7 +28,7 @@ export default function FAQ() {
             </AccordionItemHeading>
             <AccordionItemPanel>
               <p>
-                Med Revue is an annual comedy sketch show that’s made up of short skits, songs and dances. We also have a live band, video skits, flashy lights and special effects to make the show as spectacular as possible! Our society extends beyond the stage – we’re all about making friends for life, improving everyone’s skills and partying hard!
+                Med Revue is an annual comedy sketch show that’s made up of short skits, songs and dances. We also have a live band, video skits, flashy lights and special effects to make the show as spectacular as possible! Our society extends beyond the stage &ndash; we’re all about making friends for life, improving everyone’s skills and partying hard!
               </p>
             </AccordionItemPanel>
           </AccordionItem>
@@ -37,7 +38,7 @@ export default function FAQ() {
             </AccordionItemHeading>
             <AccordionItemPanel>
               <p>
-                Med Revue runs in Term 1 every year in the Science Theatre at UNSW, usually during the later weeks. Dates differ each year – our upcoming 2018 show will run from the 7th to 11th May.
+                Med Revue runs in Term 1 every year in the Science Theatre at UNSW, usually during the later weeks. Dates differ each year – our upcoming 2021 show will run from the 13th to 16th April.
               </p>
             </AccordionItemPanel>
           </AccordionItem>
@@ -56,7 +57,7 @@ export default function FAQ() {
               <AccordionItemButton>How do I sign up?</AccordionItemButton>
             </AccordionItemHeading>
             <AccordionItemPanel>
-              <p>Just click <a href="https://forms.gle/TgoudDGdXJSh54Tp6">right here!</a></p>
+              <p>Just click <a href="https://forms.gle/ypp9FUzcgUYbqQwQA">right here!</a></p>
             </AccordionItemPanel>
           </AccordionItem>
           <AccordionItem>
@@ -74,12 +75,12 @@ export default function FAQ() {
                   <li>Cast</li>
                   <li>Tech</li>
                   <li>Band</li>
-                  <li>Costumes & Make-Up</li>
+                  <li>Costumes &amp; Make-Up</li>
                   <li>Videos</li>
                   <li>Socials</li>
                   <li>Front of House/Ticketing</li>
                   <li>Marketing</li>
-                  <li>Foodies</li>
+                  <li>MR Eats</li>
                 </ul>
               </p>
               <p><b>Portfolio Heads</b></p>
@@ -88,15 +89,14 @@ export default function FAQ() {
                 <ul>
                   <li>Vocal Directors</li>
                   <li>Choreographers</li>
-                  <li>Design</li>
-                  <li>Publications</li>
+                  <li>Design &amp; Publications</li>
                   <li>Webmin/IT</li>
                 </ul>
               </p>
               <p>
-                Applications to be a portfolio head are available to everyone and are generally open mid-Term 2!
+                Applications to be a portfolio head are available to everyone and are generally open towards the end of Term 2!
               </p>
-              <p>For more information about each of these, click here</p>
+              <p>For more information about each of these, <Link to="/teams">click here</Link>.</p>
             </AccordionItemPanel>
           </AccordionItem>
           <AccordionItem>
@@ -110,7 +110,7 @@ export default function FAQ() {
                 Commitment varies depending on the role you wish to do. This commitment can range from continuous weekly rehearsals (for Cast) to just a couple hours during show week (for Front of House/Ticketing). Some portfolios may require some time during the weekend (e.g. Tech), which may be a more flexible option for you! Commitment levels may also vary due to the size of the team.
               </p>
               <p>
-                We also have roles that cater to your personal availabilities so you can roster on whenever you are free (e.g. Foodies, Marketing). This allows you to commit to just a few hours on a couple of days while still having the opportunity to meet everyone and contribute to the show!
+                We also have roles that cater to your personal availabilities so you can roster on whenever you are free (e.g. MR Eats, Marketing). This allows you to commit to just a few hours on a couple of days while still having the opportunity to meet everyone and contribute to the show!
               </p>
             </AccordionItemPanel>
           </AccordionItem>
@@ -122,7 +122,7 @@ export default function FAQ() {
             </AccordionItemHeading>
             <AccordionItemPanel>
               <p>
-                We believe that you are – you just may not have realised it yet. We understand that the thought of performing can be nerve-racking, but in Med Revue we believe that everyone should give things a go. Throughout the weeks of rehearsals leading up to show, our directors will ensure that every cast member grows in confidence and skills. Even if you’ve never sung a note in your life or if the only dance you can do is the Macarena, we’ll make sure that you’ll become a shining star on stage to wow your family, friends and hundreds of UNSW students!
+                We believe that you are &ndash; you just may not have realised it yet. We understand that the thought of performing can be nerve-racking, but in Med Revue we believe that everyone should give things a go. Throughout the weeks of rehearsals leading up to show, our directors will ensure that every cast member grows in confidence and skills. Even if you’ve never sung a note in your life or if the only dance you can do is the Macarena, we’ll make sure that you’ll become a shining star on stage to wow your family, friends and hundreds of UNSW students!
               </p>
             </AccordionItemPanel>
           </AccordionItem>
@@ -146,7 +146,7 @@ export default function FAQ() {
             </AccordionItemHeading>
             <AccordionItemPanel>
               <p>
-                Med Revue is one of the three major revues at UNSW – the other two being Law Revue and CSE Revue, which are both held during Semester 2 every year. You’re more than welcome to join more than one revue a year – in fact, a lot of the revue community gets involved with at least two a year!
+                Med Revue is one of the three major revues at UNSW – the other two being Law Revue and CSE Revue, which are both held during Terms 2 and 3 every year. You’re more than welcome to join more than one revue a year – in fact, a lot of the revue community gets involved with at least two a year!
               </p>
             </AccordionItemPanel>
           </AccordionItem>
@@ -158,12 +158,12 @@ export default function FAQ() {
             </AccordionItemHeading>
             <AccordionItemPanel>
               <p>
-                The society constitution can be found <a href="https://drive.google.com/file/d/15BYOuiTCo0tnEg5xfwzKAR_QvVvUJsFK/view?usp=sharing">here!</a>
+                The society constitution can be found <a href="https://drive.google.com/file/d/1xvO8p8ogoRmLjXBF_FNs_u944CO5WRs1/view?usp=sharing">here!</a>
               </p>
             </AccordionItemPanel>
           </AccordionItem>
         </Accordion>
-        <p><b>Have anymore questions? Don’t hesitate to get in touch with us via exec@medrevue.org!</b></p>
+        <p><b>Have any more questions? Don’t hesitate to get in touch with us via hello@medrevue.org!</b></p>
       </div>
     </div>
   )

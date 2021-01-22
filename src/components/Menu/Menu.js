@@ -14,7 +14,7 @@ class Menu extends React.Component {
           <li><Link to="/teams">Teams</Link></li>
           <li><Link to="/sponsors">Sponsors</Link></li>
           <li><Link to="/faq">FAQ</Link></li>
-          <li><a href="https://forms.gle/TgoudDGdXJSh54Tp6">Get Involved</a></li>
+          <li><a href="https://forms.gle/ypp9FUzcgUYbqQwQA"><strong>Get Involved</strong></a></li>
           {/* <li><Link to="/buy-tickets">BUY TICKETS</Link></li> */}
         </ul>
       </React.Fragment>

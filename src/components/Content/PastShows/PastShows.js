@@ -10,7 +10,7 @@ export default function PastShows() {
       <img className="header" src={Image1} alt="header" />
       <div id="faq">
         <p className="title">PAST SHOWS</p>
-        <p>UNSW Med Revue has been in production since 1975, making our 2020 show the 46rd! Check out all the parody themes and past directors/producers below!</p>
+        <p>UNSW Med Revue has been in production since 1975, making our 2021 show the 46th! Check out all the parody themes and past directors/producers below!</p>
         <table id="show-tables">
           <thead>
             <tr>

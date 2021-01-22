@@ -274,7 +274,7 @@ function Teams() {
             </AccordionItemPanel>
           </AccordionItem>
         </Accordion>
-        <p><b>If you’re interested in being part of Med Revue 2020, click on <a href="https://forms.gle/TgoudDGdXJSh54Tp6">Get Involved</a> or send us an e-mail (exec@medrevue.org) for more info!</b></p>
+        <p><b>If you’re interested in being part of Med Revue 2021, click on <a href="https://forms.gle/ypp9FUzcgUYbqQwQA">Get Involved</a> or send us an email (hello@medrevue.org) for more info!</b></p>
       </div>
     </div>
   )
