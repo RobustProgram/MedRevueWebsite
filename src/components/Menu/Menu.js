@@ -8,13 +8,13 @@ class Menu extends React.Component {
     return (
       <React.Fragment>
         <ul className="navigation">
-          <li><Link to="/">HOME</Link></li>
-          <li><Link to="/about-us">ABOUT</Link></li>
-          <li><Link to="/past-shows">PAST SHOWS</Link></li>
-          <li><Link to="/teams">TEAMS</Link></li>
-          <li><Link to="/sponsors">SPONSORS</Link></li>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/about-us">About</Link></li>
+          <li><Link to="/past-shows">Past Shows</Link></li>
+          <li><Link to="/teams">Teams</Link></li>
+          <li><Link to="/sponsors">Sponsors</Link></li>
           <li><Link to="/faq">FAQ</Link></li>
-          <li><a href="https://forms.gle/TgoudDGdXJSh54Tp6">GET INVOLVED</a></li>
+          <li><a href="https://forms.gle/TgoudDGdXJSh54Tp6">Get Involved</a></li>
           {/* <li><Link to="/buy-tickets">BUY TICKETS</Link></li> */}
         </ul>
       </React.Fragment>
